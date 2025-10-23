@@ -1,0 +1,63 @@
+.navbar {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 170px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 60px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.nav-menu li {
+  transition: transform 0.2s ease; /* animate the transform on the li itself */
+}
+.nav-menu li:hover {
+  transform: scale(1.1);
+}
+
+#nav-name {
+  display: flex;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#nav-name span {
+  background: linear-gradient(to right, #43cea2 0%, #3a98f6  51%, #43cea2  100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-contact {
+  background-image: linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%);
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50px;
+  display: block;
+  cursor: pointer;
+}
+
+.nav-contact:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+.anchor-link {
+  text-decoration: none;
+  color: inherit;
+}
+

@@ -1,0 +1,121 @@
+.contact {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin: 200px 250px;
+    margin-bottom: 100px;
+}
+
+.contact-title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-title span {
+    background: linear-gradient(to right, #43cea2 0%, #3a98f6  51%, #43cea2  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-section {
+    display: flex;
+    gap: 50px;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 20px;
+}
+
+.contact-left h1 {
+    font-size: 48px;
+    background: linear-gradient(to right, #43cea2 0%, #3a98f6  51%, #43cea2  100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.contact-left p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.contact-details {
+    font-size: 18px;
+    line-height: 2.5;
+}
+
+.contact-right {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+}
+
+.contact-right label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-right input {
+    border: none;
+    width: 600px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: Consolas, monospace;
+}
+
+.contact-right input:placeholder-shown {
+    color: #A0A0A0;
+}
+
+.contact-right textarea {
+    border: none;
+    width: 580px;
+    height: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background: #262626;
+    color: #ffffff;
+    font-size: 16px;
+    resize: none;
+}
+
+.contact-right textarea:placeholder-shown {
+    color: #A0A0A0;
+}
+
+.contact-submit {
+  background-image: linear-gradient(to right, #43cea2 0%, #185a9d  51%, #43cea2  100%);
+  margin: 10px;
+  border: none;
+  padding: 20px 40px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  transition: 0.3s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50px;
+  display: block;
+  cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact-submit:hover {
+  background-position: right center; 
+  color: #fff;
+  text-decoration: none;
+  transform: scale(1.05);
+}
