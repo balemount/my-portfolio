@@ -6,17 +6,30 @@ import Certifications from './components/certifications/Certifications';
 import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
+import FadeInSection from './components/FadeInSection';
 
 const App = () => {
   return (
     <div>
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Certifications />
-      <Contact />
-      <Footer />
+      <FadeInSection>
+        <Hero />
+      </FadeInSection>
+      <FadeInSection>
+        <About />
+      </FadeInSection>
+      <FadeInSection>
+        <Projects />
+      </FadeInSection>
+      <FadeInSection>
+        <Certifications />
+      </FadeInSection>
+      <FadeInSection>
+        <Contact />
+      </FadeInSection>
+      <FadeInSection>
+        <Footer />
+      </FadeInSection>
     </div>
   );
 };
